@@ -1,8 +1,8 @@
 streamlit
 langchain
-langchain-core
 langchain-community
-langchain-groq
+langchain-google-genai
+langchain-huggingface
 chromadb
-sentence-transformers
 python-dotenv
+sentence-transformers

@@ -21,7 +21,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 # Config
 # ============================
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets("GOOGLE_API_KEY")
 
 DATA_FILES = [("data/salary.txt", "salary"), ("data/insurance.txt", "insurance")]
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
