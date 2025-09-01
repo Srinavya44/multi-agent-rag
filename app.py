@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import PromptTemplate
+from langchain_community.vectorstores import FAISS 
 
 # Gemini LLM
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -14,7 +15,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # Data & store
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # ============================
@@ -81,15 +81,15 @@ def load_docs(files=None) -> list[Document]:
     return docs
 
 
-def build_store(docs: list[Document]) -> Chroma:
+def build_store(docs: list[Document]):
     splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
     chunks = splitter.split_documents(docs)
     embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
-    vs = Chroma.from_documents(chunks, embedding=embeddings)
+    vs = FAISS.from_documents(chunks, embedding=embeddings)
     return vs
 
 
-def get_retrievers(vs: Chroma):
+def get_retrievers(vs):
     salary_ret = vs.as_retriever(search_kwargs={"k": 2, "filter": {"topic": "salary"}})
     insur_ret = vs.as_retriever(search_kwargs={"k": 2, "filter": {"topic": "insurance"}})
     return salary_ret, insur_ret
