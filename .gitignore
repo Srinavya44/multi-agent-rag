@@ -3,3 +3,4 @@ __pycache__/
 .env
 .streamlit/
 .chroma_multi_agent/
+.streamlit/secrets.toml
