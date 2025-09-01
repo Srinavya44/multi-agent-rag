@@ -85,7 +85,7 @@ def build_store(docs: list[Document]) -> Chroma:
     splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
     chunks = splitter.split_documents(docs)
     embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
-    vs = Chroma.from_documents(chunks, embedding=embeddings, persist_directory=PERSIST_DIR)
+    vs = Chroma.from_documents(chunks, embedding=embeddings)
     return vs
 
 
