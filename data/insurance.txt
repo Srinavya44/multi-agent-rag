@@ -1,0 +1,36 @@
+# INSURANCE EXPLAINER (INDIA)
+
+## Key definitions
+- Health insurance provides financial protection against medical expenses.
+- Coverage means the maximum amount payable by the insurer per year or per event.
+- Premium is the amount paid by the employee or employer to maintain the policy.
+- A claim is the process of requesting the insurer to pay for medical expenses.
+
+## Typical coverage
+- Inpatient hospitalization: Hospital stay of more than 24 hours.
+- Day-care procedures: Treatments not requiring overnight stay, depending on policy.
+- Pre- and post-hospitalization expenses: Usually 30 days before and 60–90 days after.
+- Cashless treatment: Available at network hospitals.
+- Reimbursement: If treatment is taken at non-network hospitals.
+
+## Costs and contributions
+- Premium may be paid fully by employer, fully by employee, or shared.
+- Premium can vary based on sum insured, dependents covered, and policy terms.
+
+## Claim process (generic)
+- Step 1: Inform insurer or TPA about hospitalization.
+- Step 2: Provide required documents (ID, policy card, hospital forms).
+- Step 3: For cashless, insurer directly settles with hospital.
+- Step 4: For reimbursement, employee submits bills, insurer reimburses within policy limits.
+
+## Exclusions (examples)
+- Cosmetic or elective procedures usually not covered.
+- Pre-existing conditions may have a waiting period.
+- Certain illnesses or treatments may be excluded as per policy wording.
+
+## Glossary
+- Coverage: Maximum amount payable by the insurer.
+- Premium: Payment made to keep the policy active.
+- Claim: Request made to insurer to cover medical costs.
+- Network hospital: Hospital tied up with insurer for cashless service.
+- Co-pay: Percentage of bill paid by insured, balance by insurer.

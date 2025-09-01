@@ -1,0 +1,40 @@
+# SALARY EXPLAINER (INDIA)
+
+## Key definitions
+- Cost to Company (CTC) = Fixed pay + Employer contributions + Variable pay if any.
+- Gross monthly = Sum of monthly earnings before employee deductions.
+- In-hand (take-home) = Gross monthly minus employee deductions such as PF, TDS, and Professional Tax.
+- Employer contributions appear in CTC but are not paid in-hand.
+
+## Typical components (earnings)
+- Basic Pay: Fixed core component; usually 35–50% of CTC.
+- House Rent Allowance (HRA): Commonly 40–50% of Basic depending on policy.
+- Special/Other Allowances: Remaining portion of CTC structure.
+- Bonus/Statutory Bonus: As per company policy or statutory rules; may be monthly or annual.
+
+## Deductions (employee-side)
+- Employee PF: Typically 12% of Basic if PF applies.
+- Income Tax / TDS: Based on taxable income and regime (Old vs New).
+- Professional Tax (PT): State-specific deduction where applicable.
+- Other deductions: Insurance premium share, loans, meal cards, etc.
+
+## Employer contributions (in CTC, not in-hand)
+- Employer PF: Commonly 12% of Basic.
+- Important: Employer PF is part of CTC but NOT part of in-hand (take-home). It is deposited to the Provident Fund account.
+- Gratuity or other employer-paid benefits may be included in CTC but not paid in-hand.
+
+## Simple formulas
+- Employee PF (monthly) = 0.12 × Basic.
+- Gross monthly = Basic + HRA + Allowances + Bonus (if paid monthly).
+- In-hand ≈ Gross monthly − (Employee PF + TDS + PT + other deductions).
+- Annual CTC = (12 × Gross monthly) + Employer contributions + Annual bonuses.
+
+## Glossary
+- Basic: Core fixed pay, base for PF and HRA.
+- HRA: House Rent Allowance; may be partly tax-exempt.
+- Special Allowance: Flexible component balancing the CTC.
+- PF: Provident Fund; both employer and employee may contribute.
+- TDS: Tax deducted at source on salary.
+- Professional Tax: State-levied employment tax.
+- CTC: Employer’s total annual cost for the employee.
+
