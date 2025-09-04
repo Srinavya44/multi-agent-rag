@@ -15,7 +15,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # Data & store
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # ============================
 # Config
